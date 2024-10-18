@@ -2,8 +2,8 @@
 
 // TODO: Fix the square root function not displaying
 function calculateSquareRoot(value) {
-    
     // return the square root of the value
+    return Math.sqrt(value);
 }
 
 // TODO: Implement square function
@@ -13,12 +13,13 @@ function calculateSquare(value) {
 
 }
 
-// BUG: FIX reciprocal function
+// reciporcal function
 function calculateReciprocal(value) {
-    // Hint: Reciprocal is 1/x
-    // return the square root of the value
-    return 1* value;
-
+    // cannot divide by 0 
+    if (value === 0) {
+        throw new Error("0 does have a reciporcal.");
+    }
+    return 1 / value;
 }
 
 // TODO: Implement natural log function
