@@ -63,5 +63,8 @@ function runTangent() {
     display.value = v;
 }
     // TODO: Implement run your functions here
-
+function runNaturalLog() {
+    const v = naturalLog(parseFloat(display.value));
+    display.value = v;
+}
 
