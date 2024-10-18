@@ -2,8 +2,8 @@
 
 // TODO: Fix the square root function not displaying
 function calculateSquareRoot(value) {
-    
     // return the square root of the value
+    return Math.sqrt(value);
 }
 
 // TODO: Implement square function
@@ -13,12 +13,13 @@ function calculateSquare(value) {
     return Math.pow(value, 2);
 }
 
-// BUG: FIX reciprocal function
+// reciporcal function
 function calculateReciprocal(value) {
-    // Hint: Reciprocal is 1/x
-    // return the square root of the value
-    return 1* value;
-
+    // cannot divide by 0 
+    if (value === 0) {
+        throw new Error("0 does have a reciporcal.");
+    }
+    return 1 / value;
 }
 
 // TODO: Implement natural log function
@@ -28,17 +29,17 @@ function naturalLog(value) {
 
 // TODO: Implement sine function
 function sine(value) {
-    // return the sine of the value
+    return Math.sin(value)
 }
 
 // TODO: Implement cosine function
 function cosine(value) {
-    // return the cosine of the value
+    return Math.cos(value)
 }
 
 // TODO: Implement tangent function
 function tangent(value) {
-    // return the tangent of the value
+    return Math.tan(value)
 }
 
 
