@@ -47,6 +47,21 @@ function runReciprocal() {
     display.value = v;
 }
 
-// TODO: Implement run your functions here
+function runSine() {
+    // Hint: Reciprocal is 1/x
+    const v = sine(display.value);
+    display.value = v;
+}
+function runCosine() {
+    // Hint: Reciprocal is 1/x
+    const v = cosine(display.value);
+    display.value = v;
+}
+function runTangent() {
+    // Hint: Reciprocal is 1/x
+    const v = tangent(display.value);
+    display.value = v;
+}
+    // TODO: Implement run your functions here
 
 
