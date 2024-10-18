@@ -22,3 +22,9 @@ describe('Calculator Calculation Functions', function() {
 
 
 // Add your tests here
+describe('calculateReciprocal', function() {
+    it('should return 0.5 for input 2', function() {
+        const res = calculator.calculateReciprocal(2);
+        assert.strictEqual(res, 0.5);
+    });
+});
