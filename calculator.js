@@ -10,9 +10,16 @@ main
 }
 
 // TODO: Implement square function
+feature/add-natural-log-function
 function calculateSquare(value) { // Megan
   // Hint: Use exponentiation
   // return the square root of the value
+
+function calculateSquare(value) {
+    // Hint: Use exponentiation
+    // return the square root of the value
+    return Math.pow(value, 2);
+main
 }
 
 feature/add-natural-log-function
